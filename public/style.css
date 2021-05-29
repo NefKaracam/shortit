@@ -1,0 +1,107 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1506259091721-347e791bab0f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YWJzdHJhY3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Raleway, Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  height: 38px;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  text-align: left;
+  color: #cffffe;
+  padding-bottom: 20px;
+  padding-left: 68px;
+}
+
+.link {
+  color: #16adab;
+}
+
+.logo {
+  width: 250px;
+  height: 160px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #00000093;
+  border-radius: 10px;
+  width: 40%;
+  padding: 10px 40px;
+  margin: auto;
+  margin-top: 10%;
+  min-width: 400px;
+}
+
+#input {
+  display: inline-block;
+  width: 60%;
+  height: 37px;
+  border-bottom: solid 1px #cffffe;
+  border-left: solid 1px #cffffe;
+  border-top: solid 1px #cffffe;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: inherit;
+  margin: 0 0 40px 65px;
+  font-size: 17px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #cffffe;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#shorten {
+  width: 15%;
+  height: 41px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: solid 1px #cffffe;
+  background-color: #123c50;
+  font-size: 17px;
+  font-family: inherit;
+  text-align: center;
+  color: #cffffe;
+  border-left: none;
+  min-width: 90px;
+}
+
+#shorten:hover {
+  color: #123c50;
+  background-color: #cffffe;
+  cursor: pointer;
+}
+
+#responseField {
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  border: solid 1px #cffffe;
+  padding: 2rem 1rem;
+  min-height: 3em;
+  margin: 25px 0 0 65px;
+  color: #cffffe;
+  width: 75%;
+  margin-bottom: 70px;
+}
+
+#form {
+  display: flex;
+  flex-direction: row;
+}
+
+#footer {
+  text-align: center;
+  padding-top: 60px;
+}
+#footer a {
+  padding-left: 5px;
+  color: #16adab;
+  text-decoration: none;
+}
