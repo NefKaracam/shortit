@@ -1,5 +1,5 @@
 <img src="screenshot.jpg" />
 
-\*\*shortit
+shortit
 
 A web page UI designed for URL shortening service built with JavaScript.
